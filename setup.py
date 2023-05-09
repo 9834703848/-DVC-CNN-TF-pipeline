@@ -15,7 +15,7 @@ setup(
     # package_dir={"": "src"},
     # packages=find_packages(where="src"),
     packages=["src"],
-    license="GNU",
+    license="MIT",
     python_requires=">=3.6",
     install_requires=[
         'dvc',
