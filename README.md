@@ -1,2 +1,2 @@
 # dvc-pipeline
-Automating ml pipelines
+DVC project for DL usecase using tensorflow
