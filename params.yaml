@@ -1,34 +1,7 @@
-base:
-  project: simple-dvc-project
-  random_state: 42
-  target_col: "cnt"
-  test_size: 0.2
+# This contains params to be used by the stages to train or predict
 
-data_source:
-  s3_source: hour.csv
-
-artifacts:
-  artifacts_dir: artifacts
-
-  raw_local_data_dir: artifacts/raw_local_data_dir
-  raw_local_data: artifacts/raw_local_data_dir/data.csv
-
-  split_data:
-    processed_data_dir: artifacts/processed_data
-    train_path: artifacts/processed_data/train.csv
-    test_path: artifacts/processed_data/test.csv
-
-  reports:
-    reports_dir: artifacts/report
-    params: artifacts/report/params.json
-    scores: artifacts/report/scores.json
-
-  model_dir: artifacts/saved_models
-  model_path: artifacts/saved_models/model.joblib
-
-
-estimators:
-  ElasticNet:
-    params:
-      alpha: 0.7
-      l1_ratio: 0.4
+IMAGE_SIZE: [224, 224, 3] # images size used in VGG16 model
+BATCH_SIZE: 16 # default is 32
+EPOCHS: 50
+LEARNING_RATE: 0.001
+AUGMENTATION: True
