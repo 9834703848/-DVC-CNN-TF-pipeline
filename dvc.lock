@@ -124,8 +124,8 @@ stages:
       md5: b2b2cf5909b0d9670884c2c73e839f66
       size: 556
     - path: params.yaml
-      md5: 4daabf3818c64c80a486b702db49f4a1
-      size: 216
+      md5: 4ec70b417c75d1e066e48294ea85e613
+      size: 215
     - path: src/stage_03_prepare_callback.py
       md5: 978bdbeaf89646e19616d7b0dfaa1b28
       size: 1804
@@ -137,8 +137,8 @@ stages:
       size: 2013
     outs:
     - path: artifacts/callbacks/checkpoint_cb.cb
-      md5: d84f295f3402d4577005ca198f601456
-      size: 723
+      md5: 56a63855fcbb25018a97d835e843f7a1
+      size: 752
     - path: artifacts/callbacks/tensorboard_cb.cb
-      md5: a87897a632d7e0b48edc8df38d83ad4c
+      md5: 8abffbe7a61832c9261c2d8cad5ef42b
       size: 572
